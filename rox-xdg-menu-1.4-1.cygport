@@ -1,0 +1,8 @@
+ORIG_PN="XDG-Menu"
+inherit rox
+
+HOMEPAGE="http://xdg-menu.sourceforge.net/"
+SRC_URI="mirror://sourceforge/xdg-menu/${ORIG_PN}-${PV}.tgz"
+SRC_DIR=.
+
+ROX_APP=${ORIG_PN}
