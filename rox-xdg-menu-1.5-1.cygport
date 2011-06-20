@@ -4,5 +4,6 @@ inherit rox
 HOMEPAGE="http://xdg-menu.sourceforge.net/"
 SRC_URI="mirror://sourceforge/xdg-menu/${ORIG_PN}-${PV}.tgz"
 SRC_DIR=.
+PATCH_URI="1.5-gnome-menus.patch"
 
 ROX_APP=${ORIG_PN}

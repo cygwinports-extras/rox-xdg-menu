@@ -1,0 +1,11 @@
+--- origsrc/XDG-Menu/python/main.py	2010-10-04 08:23:55.000000000 -0500
++++ src/XDG-Menu/python/main.py	2011-06-19 20:17:38.100801700 -0500
+@@ -381,7 +381,7 @@ class Button(g.EventBox, CtxMenuWidget):
+   def get_xmenu(self, filename=''):
+     if filename not in self._xmenu:
+       try:
+-        self._xmenu[filename] = xdg.Menu.parse(filename or None)
++        self._xmenu[filename] = xdg.Menu.parse(filename or 'gnome-applications.menu')
+       except:
+         return None
+       if filename and not is_valid_xdg_menu_file(
