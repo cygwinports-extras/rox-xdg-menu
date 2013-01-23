@@ -1,6 +1,12 @@
 ORIG_PN="XDG-Menu"
 inherit rox
 
+NAME="rox-xdg-menu"
+VERSION=1.5
+RELEASE=2
+CATEGORY="ROX"
+SUMMARY="ROX XDG application menu"
+REQUIRES="gnome-menus"
 HOMEPAGE="http://xdg-menu.sourceforge.net/"
 SRC_URI="mirror://sourceforge/xdg-menu/${ORIG_PN}-${PV}.tgz"
 SRC_DIR=.
